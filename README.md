@@ -1,4 +1,4 @@
-# Gretta Back
+# Gretta Backend
 
 Gretta Back es una API desarrollada en Node.js, Express, MongoDB, y JSON Web Token para llevar la contabilidad del café en la finca La Victoria.
 
