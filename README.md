@@ -12,8 +12,8 @@ Clona el repositorio o descárgalo en tu computadora.
 4. A continuación se muestra un ejemplo de las variables de entorno necesarias:
 
 ```bash
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/gretta-back
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/gretta
 JWT_SECRET=secret
 ```
 
