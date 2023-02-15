@@ -6,10 +6,10 @@ Gretta Back es una API desarrollada en Node.js, Express, MongoDB, y JSON Web Tok
 
 Clona el repositorio o descárgalo en tu computadora.
 
-- Abre una terminal y navega hasta la carpeta donde está el proyecto.
-- Ejecuta `npm install` para instalar las dependencias.
-- Configura las variables de entorno en un archivo `.env` en la raíz del proyecto.
-- A continuación se muestra un ejemplo de las variables de entorno necesarias:
+1. Abre una terminal y navega hasta la carpeta donde está el proyecto.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Configura las variables de entorno en un archivo `.env` en la raíz del proyecto.
+4. A continuación se muestra un ejemplo de las variables de entorno necesarias:
 
 ```bash
 PORT=3000
@@ -17,7 +17,7 @@ MONGODB_URI=mongodb://localhost:27017/gretta-back
 JWT_SECRET=secret
 ```
 
-- Ejecuta npm start para iniciar el servidor.
+5. Ejecuta npm start para iniciar el servidor.
 
 ## Uso
 
