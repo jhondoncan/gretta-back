@@ -1,29 +1,29 @@
-import express from 'express';
-import morgan from 'morgan';
-import cookieParser from 'cookie-parser';
-import dotenv from 'dotenv';
-import "./database/connectdb.js";
-import authRoutes from './routes/auth.route.js';
+import express from 'express'
+import morgan from 'morgan'
+import cookieParser from 'cookie-parser'
+import dotenv from 'dotenv'
+import './database/connectdb.js'
+import authRoutes from './routes/auth.route.js'
 
-dotenv.config();
+dotenv.config()
 
-const app = express();
+const app = express()
 
-app.use(morgan('dev'));
-app.use(cookieParser());
-app.use(express.json());
+app.use(morgan('dev'))
+app.use(cookieParser())
+app.use(express.json())
 
 
-app.use('/', authRoutes);
+app.use('/', authRoutes)
 
 app.get('/', (req, res) => {
-    res.json({
-        mensaje: "Bienvenido a Gretta",
+  res.json({
+    mensaje: 'Bienvenido a Gretta',
 
-    });
-});
+  })
+})
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
-    console.log(`✅ Servidor corriendo en: http://localhost:${PORT}`);
-});
+  console.log(`✅ Servidor corriendo en: http://localhost:${PORT}`)
+})
