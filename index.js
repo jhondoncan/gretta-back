@@ -13,13 +13,11 @@ app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(express.json())
 
-
 app.use('/', authRoutes)
 
 app.get('/', (req, res) => {
   res.json({
-    mensaje: 'Bienvenido a Gretta',
-
+    mensaje: 'Bienvenido a Gretta'
   })
 })
 
